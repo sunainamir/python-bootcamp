@@ -25,11 +25,9 @@ print(x + y)
 30
 
 ```
-#pros:
-- to tell system that given number is an integer 
-#cons:
-- system will treat numbers as string and then the output will be not satisfying.
+#purpose:
 
+Converts the user's input from a string into integer so Python can perform arithmetic.
 
 ### converting string into integer
 
@@ -55,11 +53,12 @@ print(height)
 5.7
 
 ```
-#pros:
-- tells system that given number is a decimal number .
-#cons:
-- treat decimal number as a string or text .
+#purpose:
 
+## Purpose
+
+Converts the user's input from a string into a floating-point (decimal) number.
+ 
 
 ### converting numbers into strings
 
@@ -79,8 +78,8 @@ print("Age: " + str(age))
 Age: 18
 
 ```
-##purpose :
-- converts number into text 
-- pyhton gives error without str() .
+## Purpose
+
+Converts an integer into a string so it can be joined with other text.
   
 
