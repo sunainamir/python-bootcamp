@@ -18,6 +18,10 @@ print("Multiplication:", first * second)
 
 print("Division:", first / second)
 
+print("Remainder:", first % second)
+
+print("Power:", first ** second)
+
 ```
 
 ##input:
@@ -32,12 +36,15 @@ Enter second number: 2
 Addition: 4
 Subtraction: 0
 Multiplication: 4
-Division: 2.0
+Division: 1.0
+Remainder : 0
+Power : 4
 
 ```
 
 ### features: 
 
-- calculate two numbers
-- perform operations ( + , - , * , / )
-- satisfying results
+- Supports 6 mathematical operations
+- Accepts user input
+- Displays results clearly
+- Beginner-friendly calculator
