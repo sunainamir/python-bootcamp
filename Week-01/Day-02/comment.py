@@ -14,5 +14,5 @@ sunaina
 ```
 
 #description :
- writting such programs that is easy to understand 
+ Comments make code easier to understand and maintain.
 
