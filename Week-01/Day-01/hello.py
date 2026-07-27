@@ -1,7 +1,9 @@
+code :
 print("Hello, World!")
 
-name = "Sunaina"
+output :
+hello, World!
 
-print("My name is", name)
+description:
+my first python program demonstrating print() function
 
-print("I will become an AI Software Engineer.")
