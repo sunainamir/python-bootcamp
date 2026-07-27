@@ -30,10 +30,10 @@ Use an f-string.
 ```python
 
 name = input("enter your name : ")
-age = int(input("enter your age : ")
+age = int(input("enter your age : "))
 
 print(f"hello! {name}")
-print(f("you are {age} years old ")
+print(f"you are {age} years old ")
 
 ```
 
@@ -106,7 +106,7 @@ Ask for height using float().
 
 height = float(input("enter your height : "))
 
-print(f"your height is  {heigth}")
+print(f"your height is  {height}")
 
 ```
 
