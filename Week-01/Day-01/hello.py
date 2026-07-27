@@ -1,9 +1,9 @@
-code :
+#code :
 print("Hello, World!")
 
-output :
+#output :
 hello, World!
 
-description:
+#description:
 my first python program demonstrating print() function
 
