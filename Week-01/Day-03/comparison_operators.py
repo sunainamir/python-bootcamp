@@ -1,4 +1,4 @@
-#comparision_operators
+#comparison_operators
 
 - operators used to compare two values .
 
