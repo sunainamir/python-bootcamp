@@ -29,7 +29,7 @@ elif name != "sunaina" and password =='python123' :
     print("wrong username . try again! ")
     
 elif name != "sunaina" and password !='python123' :
-    print("invalid data  ! ")
+    print("invalid username and password  ! ")
     print("please try again !")
 
 
@@ -103,7 +103,7 @@ Enter password :abc123
 
 ```
 
-invalid data  ! 
+invalid username and password  ! 
 please try again !
 
 ```
