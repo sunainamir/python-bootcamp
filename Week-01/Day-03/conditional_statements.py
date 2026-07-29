@@ -1,6 +1,7 @@
 # conditional_statements 
 
-- python uses these statement if any condition is to be executed .
+- Python uses conditional statements to execute different
+  blocks of code depending on whether a condition is True or False..
 
 ## IF_STATEMENT  
   
