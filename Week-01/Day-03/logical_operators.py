@@ -37,7 +37,7 @@ Both are True.
 
 ## or operator (or) :
        
-- atleast one condition should True for further execution .
+- at least one condition should True for further execution .
 
 ### sample code 
 
