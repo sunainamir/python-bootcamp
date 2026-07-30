@@ -38,3 +38,19 @@ Example:
 ```python
 for data in dataset:
     process(data)
+```
+
+# Summary
+
+Today I learned:
+
+- How to use `for` and `while` loops.
+- How to generate sequences using `range()`.
+- How to control loops with `break` and `continue`.
+- How to solve number processing problems.
+- How to calculate totals using loops.
+- How to print different patterns using nested loops.
+
+## Mini Project
+
+Pattern Generator
