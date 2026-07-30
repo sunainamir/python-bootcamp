@@ -21,6 +21,18 @@ print("\n  country:",country) print("\n  favourite subject :",favsub)
 print("thankyou!")
 
 ```
+
+###input :
+```
+What is your name ? Sunaina
+
+what is your age ?  18
+
+what is the name of your country ?  Pakistan
+
+what is your favorite Subject ? Physics
+```
+
 ###output:
 
 ```
