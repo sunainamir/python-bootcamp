@@ -20,5 +20,8 @@ I'm learning Python from scratch with the goal of becoming an AI Software Engine
 
 ### Week 1
 - ✅ Day 1 Completed
+- ✅ Day 2 Completed
+- ✅ Day 3 Completed
+- ✅ Day 4 Completed
 
 More updates coming soon...
