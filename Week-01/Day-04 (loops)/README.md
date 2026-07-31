@@ -51,6 +51,24 @@ Today I learned:
 - How to calculate totals using loops.
 - How to print different patterns using nested loops.
 
+
 ## Mini Project
 
-Pattern Generator
+### Number Analyzer
+
+A menu-driven Python program that performs various number operations using loops and conditional statements.
+
+### Features
+
+- Count Numbers
+- Even Numbers
+- Odd Numbers
+- Sum of Numbers
+- Star Pattern
+- Reverse Counting
+- Multiplication Table
+- Square Pattern
+
+### Sample Output
+
+![Number Analyzer](images/number_analyzer.png)
