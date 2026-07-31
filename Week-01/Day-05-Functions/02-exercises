@@ -1,0 +1,199 @@
+# Exercise 1 : Create a function that prints "Hello AI".
+
+## Code 
+
+```python
+
+def hello():
+    print("Hello AI !")
+    
+hello()
+
+```
+
+## Output 
+
+```
+Hello AI !
+
+```
+
+# Exercise 2 : Create a function that prints your name.
+
+## Code 
+
+```python
+
+def Display_name():
+    print(" Sunaina Mir ")
+    
+name()
+
+```
+
+## Output 
+
+```
+Sunaina Mir
+
+```
+
+# Exercise 3 : Create a function with one parameter.
+
+## Code 
+
+```python
+
+def greet(name):
+    print("Hello ",name)
+    
+greet("Sunaina")
+
+```
+
+## Output 
+
+```
+Hello Sunaina
+
+```
+
+# Exercise 4 : Create a function that adds two numbers.
+
+## Code 
+
+```python
+
+def add(a,b):
+    return a+b
+result = add(2,2)
+print("sum = ", result)
+
+```
+
+## Output 
+
+```
+sum =  4
+
+```
+# Exercise 5 : Create a function with three parameters.
+
+## Code 
+
+```python
+def add(a,b,c):
+    return a+b+c
+result = add(2,2,2)
+print("sum = ", result)
+
+
+```
+
+## Output 
+
+```
+sum =  6
+
+```
+# Exercise 6 : Create a function that returns the square of a number.
+
+## Code 
+
+```python
+
+def square(number):
+    return number*number
+
+result = square(6)
+print(result)
+
+```
+
+## Output 
+
+```
+36
+
+```
+# Exercise 7 : Create a function that returns the larger of two numbers.
+
+## Code 
+
+```python
+
+def larger(a,b):
+    if a>b:
+        return a
+    else :
+        return b
+print(larger(9,6))
+
+```
+
+## Output 
+
+```
+9
+
+```
+# Exercise 8 : Create a function with a default parameter.
+
+## Code 
+
+```python
+
+def greet(name = "Guest"):
+    print("Hello ",name)
+greet()
+greet("Sunaina")
+
+```
+
+## Output 
+
+```
+Hello  Guest
+Hello  Sunaina
+
+```
+# Exercise 9 : Create a function that calculates the area of a rectangle.
+
+## Code 
+
+```python
+
+def area(length,width) :
+    return  length * width
+print(area(4,5))
+
+```
+
+## Output 
+
+```
+20
+
+```
+# Exercise 10 : Create a function that checks whether a number is even or odd.
+
+## Code 
+
+```python
+
+def even_odd(number) :
+    if number%2==0:
+         return  "Even"
+    else:
+        return "Odd"
+    
+print(even_odd(9))
+
+```
+
+## Output 
+
+```
+Odd
+
+```
