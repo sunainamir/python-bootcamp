@@ -452,3 +452,169 @@ print(numbers)
 [10,15,30,40,50]
 
 ```
+
+# Exercise 21 : Use len() to print the number of elements in a list.
+
+## Sample Code
+
+```python
+
+fruits = ["Apple","Banana","Orange","Mango"]
+
+print(len(fruits))
+
+```
+
+## Sample Output
+
+```
+4
+
+```
+
+# Exercise 22 : Count how many times 5 appears in the list.
+
+## Sample Code
+
+```python
+
+numbers = [5,2,5,8,5,10]
+
+print(numbers.count(5))
+
+```
+
+## Sample Output
+
+```
+3
+
+```
+
+# Exercise 23 : Find the index of "Python".
+
+## Sample Code
+
+```python
+
+languages = ["C","C++","Python","Java"]
+
+print(languages.index("Python"))
+
+```
+
+## Sample Output
+
+```
+2
+
+```
+
+# Exercise 24 : Sort a list in ascending order.
+
+## Sample Code
+
+```python
+
+numbers = [8,2,6,1,4]
+
+numbers.sort()
+
+print(numbers)
+
+```
+
+## Sample Output
+
+```
+[1, 2, 4, 6, 8]
+
+```
+
+# Exercise 25 : Sort a list in descending order.
+
+## Sample Code
+
+```python
+
+numbers = [8,2,6,1,4]
+
+numbers.sort(reverse=True)
+
+print(numbers)
+
+```
+
+## Sample Output
+
+```
+[8, 6, 4, 2, 1]
+
+```
+
+# Exercise 26 : Reverse a list.
+
+## Sample Code
+
+```python
+
+numbers = [10,20,30,40]
+
+numbers.reverse()
+
+print(numbers)
+
+```
+
+## Sample Output
+
+```
+[40, 30, 20, 10]
+
+```
+
+# Exercise 27 : Create a copy of a list and add a new element to the copied list.
+
+## Sample Code
+
+```python
+
+list1 = [10,20,30]
+
+list2 = list1.copy()
+
+list2.append(40)
+
+print("Original List :",list1)
+print("Copied List :",list2)
+
+```
+
+## Sample Output
+
+```
+Original List : [10, 20, 30]
+Copied List : [10, 20, 30, 40]
+
+```
+
+# Exercise 28 : Check whether "Apple" is in the list and "Mango" is not in the list.
+
+## Sample Code
+
+```python
+
+fruits = ["Apple","Banana","Orange"]
+
+print("Apple" in fruits)
+print("Mango" not in fruits)
+
+```
+
+## Sample Output
+
+```
+True
+True
+
+```

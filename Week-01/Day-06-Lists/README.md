@@ -20,6 +20,13 @@ Learn how to use Python lists to store, access, modify, and manage multiple valu
 - pop()
 - clear()
 - del Statement
+- len()
+- count()
+- index()
+- sort()
+- reverse()
+- copy()
+- Membership Operators (`in` and `not in`)
 
 ---
 
@@ -50,14 +57,15 @@ Learn how to use Python lists to store, access, modify, and manage multiple valu
 # 🧠 Skills Practiced
 
 - Creating Lists
-- Accessing List Elements
-- List Modification
+- Accessing Elements
+- Updating Lists
+- Removing Elements
+- Sorting Lists
+- Copying Lists
+- Searching Elements
+- Checking Membership
 - User Input
-- append()
-- remove()
-- insert()
-- len()
-- Basic Program Design
+- Basic Problem Solving
 
 ---
 

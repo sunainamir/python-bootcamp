@@ -457,3 +457,293 @@ print(numbers)
 ## AI Connection
 
 - AI removes unnecessary data structures to optimize memory usage.
+
+# len()
+
+- len() returns the total number of elements in a list.
+
+## Syntax
+
+```python
+
+len(list_name)
+
+```
+
+## Sample Code
+
+```python
+
+fruits = ["Apple","Banana","Orange"]
+
+print(len(fruits))
+
+```
+
+## Sample Output
+
+```
+3
+
+```
+
+## Key Points
+
+- Returns the total number of elements.
+- Returns an integer value.
+- It does not count characters inside an element.
+- Works with lists, strings, tuples and dictionaries.
+
+## AI Connection
+
+AI uses len() to count the number of samples in a dataset, predictions, or training batches.
+
+# count()
+
+- count() returns how many times a specific value appears in a list.
+
+## Syntax
+
+```python
+
+list_name.count(value)
+
+```
+
+## Sample Code
+
+```python
+
+numbers = [2,5,2,8,2]
+
+print(numbers.count(2))
+
+```
+
+## Sample Output
+
+```
+3
+
+```
+
+## Key Points
+
+- Counts occurrences of a value.
+- Returns 0 if the value is not found.
+- Searches the complete list.
+- Useful for repeated elements.
+
+## AI Connection
+
+AI uses count() to count labels, classes, or repeated values in datasets.
+
+# index()
+
+- index() returns the index of the first occurrence of a value.
+
+## Syntax
+
+```python
+
+list_name.index(value)
+
+```
+
+## Sample Code
+
+```python
+
+fruits = ["Apple","Banana","Orange"]
+
+print(fruits.index("Banana"))
+
+```
+
+## Sample Output
+
+```
+1
+
+```
+
+## Key Points
+
+- Returns the first matching index.
+- Index starts from 0.
+- Gives ValueError if the value is not found.
+- Useful for locating elements.
+
+## AI Connection
+
+AI uses index() to locate labels, classes, or words inside datasets.
+
+# sort()
+
+- sort() arranges list elements in ascending order by default.
+
+## Syntax
+
+```python
+
+list_name.sort()
+
+```
+
+## Sample Code
+
+```python
+
+numbers = [8,4,1,6]
+
+numbers.sort()
+
+print(numbers)
+
+```
+
+## Sample Output
+
+```
+[1, 4, 6, 8]
+
+```
+
+## Key Points
+
+- Sorts the original list.
+- Default order is ascending.
+- Can sort strings alphabetically.
+- Use reverse=True for descending order.
+
+## AI Connection
+
+AI sorts prediction scores, confidence values, and datasets before analysis.
+
+# reverse()
+
+- reverse() reverses the current order of elements in a list.
+
+## Syntax
+
+```python
+
+list_name.reverse()
+
+```
+
+## Sample Code
+
+```python
+
+numbers = [10,20,30,40]
+
+numbers.reverse()
+
+print(numbers)
+
+```
+
+## Sample Output
+
+```
+[40, 30, 20, 10]
+
+```
+
+## Key Points
+
+- Reverses the existing order.
+- Does not sort the list.
+- Changes the original list.
+- Useful for displaying data in reverse order.
+
+## AI Connection
+
+AI may reverse sequences while processing time-series data or ordered outputs.
+
+# copy()
+
+- copy() creates a new list with the same elements.
+
+## Syntax
+
+```python
+
+new_list = old_list.copy()
+
+```
+
+## Sample Code
+
+```python
+
+list1 = [10,20,30]
+
+list2 = list1.copy()
+
+print(list2)
+
+```
+
+## Sample Output
+
+```
+[10, 20, 30]
+
+```
+
+## Key Points
+
+- Creates a separate copy of a list.
+- Changes in the copied list do not affect the original list.
+- Prevents accidental modification of original data.
+- Useful for creating backups.
+
+## AI Connection
+
+AI creates copies of datasets before preprocessing or data augmentation to preserve the original data.
+
+# Membership Operators (in, not in)
+
+- Membership operators check whether an element exists in a list.
+
+## Syntax
+
+```python
+
+value in list_name
+
+value not in list_name
+
+```
+
+## Sample Code
+
+```python
+
+fruits = ["Apple","Banana","Orange"]
+
+print("Apple" in fruits)
+print("Mango" not in fruits)
+
+```
+
+## Sample Output
+
+```
+True
+True
+
+```
+
+## Key Points
+
+- in checks whether an element exists.
+- not in checks whether an element does not exist.
+- Returns True or False.
+- Useful for making decisions.
+
+## AI Connection
+
+AI checks whether a label, word, class, or feature exists before processing data.
