@@ -1,3 +1,7 @@
+#  MINIPROJECT
+#  TEXT FORMATTER AI
+
+
 print("="*40)
 print("          TEXT FORMATTER AI")
 print("="*40)
