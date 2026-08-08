@@ -53,8 +53,7 @@ print("FAVOURITE LANGAUGES".center(40))
 print("="*40)
 print() 
 
-#def fav_languages(*langauges):
-#   print()
+print(languages)
 
 print()
 print("="*40)
