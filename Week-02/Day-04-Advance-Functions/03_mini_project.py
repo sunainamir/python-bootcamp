@@ -15,10 +15,13 @@ print()
 add_languages = int(input("How many favorite languages do you want to add? "))
 print()
 
+favorite_languages = []
+
 def languages():
     for i in range(add_languages):
-        input(f"Enter Language {i+1} : ")
-        
+        language = input(f"Enter Language {i+1} : ")
+        favorite_languages.append(language)
+
 languages()
 
 print() 
@@ -53,21 +56,31 @@ print("FAVOURITE LANGAUGES".center(40))
 print("="*40)
 print() 
 
-print(languages)
+def show_languages(*languages):
+    for number, language in enumerate(languages, start=1):
+        print(number, ".", language)
+
+show_languages(*favorite_languages)
 
 print()
 print("="*40)
 print("LOCAL VARIABLE DEMO".center(40))
 print("="*40)
 print()      
-print("Current Mode : Translation")
+def local_var():
+    mode = "Translation"
+    print("Current Mode : ",mode)
+local_var()
 
 print()
 print("="*40)
 print("GLOBAL VARIABLE DEMO".center(40))
 print("="*40)
 print() 
-print("Application Name : BridgeTalk AI")
+app = "BridgeTalk AI"
+def global_var():
+    print("Application Name : BridgeTalk AI")
+global_var()
 
 print()
 print("="*40)
